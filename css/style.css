@@ -1,0 +1,53 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto 1rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form input[type="text"] {
+  width: 100%;
+  margin-right: 0.6rem;
+}
+
+.task-list {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+}
+
+.control button {
+  margin-left: 0.6rem;
+}
+
+.hide {
+  display: none;
+}

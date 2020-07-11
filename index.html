@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-list">
+        <h1>Todo List</h1>
+
+        <div class="control">
+          <select id="filter">
+            <option value="all">All</option>
+            <option value="active">Active</option>
+            <option value="completed">Completed</option>
+          </select>
+          <button id="clear-all">Clear</button>
+        </div>
+
+        <div id="task-list" class="task-list"></div>
+
+        <form class="form" id="form">
+          <input
+            type="text"
+            id="task"
+            placeholder="Enter a task..."
+            autocomplete="off"
+          />
+          <button type="submit" class="success">Add</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/task.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
